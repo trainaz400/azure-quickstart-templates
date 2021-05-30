@@ -19,7 +19,7 @@ steps:
     azureResourceManagerConnection: 'ARMME'
     subscriptionId: 'ad3e9ff0-28c4-42fe-bd2c-f885a0d8d426'
     action: 'Create Or Update Resource Group'
-    resourceGroupName: 'ARMPipelinesLAMP-rg'
+    resourceGroupName: 'ARMPipelinesDAVE-rg'
     location: 'westeurope'
     templateLocation: 'Linked artifact'
     csmFile: '$(Build.ArtifactStagingDirectory)/azuredeploy.json'
